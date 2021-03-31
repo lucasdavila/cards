@@ -1,6 +1,6 @@
 # Cards
 
-This is a simple cards deck manager experiment build with elixir, it allow to:
+This is a simple cards deck manager experiment build with elixir, it allows to:
 
 * Create a deck
 * Shuffle the cards
@@ -11,26 +11,34 @@ This is a simple cards deck manager experiment build with elixir, it allow to:
 
 ## Dev env setup
 
-* First clone this repo: `git clone git@github.com:lucasdavila/cards.git`
-* Then install the deps: `mix deps.get`
+* First clone this repo:
+
+  `git clone git@github.com:lucasdavila/cards.git`
+
+* Then install the deps:
+
+  `mix deps.get`
 
 ## Tests
 
 You can run the tests with:
+
 `$ mix test`
 
 ## Docs
 
-You can generate the documentation with ex_doc:
+* You can generate the documentation with ex_doc:
+
 `$ mix docs`
 
-Then you can check it:
+* Then you can check it:
 
 `$ open doc/index.html`
 
 ## Usage
 
 * Open the iex console loading the project:
+
   `$ iex -S mix`
 
 * call the functions:
